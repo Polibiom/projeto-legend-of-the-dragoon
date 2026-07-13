@@ -1,142 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto - The Legend of Dragoon</title>
+  <title>The Legend of Dragoon - Enciclopédia</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
 
-<link rel="shortcut icon" href="./src/imagens/ric-foto-port.ico" type="image/x-icon">
-
-<link rel="stylesheet" href="./src/css/estilos.css">
-<link rel="stylesheet" href="./src/css/reset.css">
-<link rel="stylesheet" href="./src/css/responsivo.css">
-
-
+  <link rel="shortcut icon" href="./src/imagens/ric-foto-port.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
 </head>
 <body>
 
+  <!-- Partículas de fundo -->
+  <div id="particles"></div>
+
   <main>
-
     <div class="carrossel">
-      <img class="imagem ativa" src="./src/imagens/00 - logo.webp" alt="Dart Feld">
-      <img class="imagem" src="./src/imagens/01 - Dart Feld.webp" alt="Dart">
-      <img class="imagem" src="./src/imagens/02 - Shana.webp" alt="Shana">
-      <img class="imagem" src="./src/imagens/03 - Rose.webp" alt="Rose">
-      <img class="imagem" src="./src/imagens/04 - Albert.webp" alt="Albert">
-      <img class="imagem" src="./src/imagens/05 - Meru.webp" alt="Meru">
-      <img class="imagem" src="./src/imagens/06 - Haschel.webp" alt="Haschel">
-      <img class="imagem" src="./src/imagens/07 - Kongol.webp" alt="Kongol">
-      <img class="imagem" src="./src/imagens/08 - Miranda.webp" alt="Miranda">
-      <img class="imagem" src="./src/imagens/09 - Dole.webp" alt="Dole">
-      <img class="imagem" src="./src/imagens/10 - Zieg Feld.webp" alt="Zieg">
-
-
-
+      <img class="imagem ativa" src="./src/imagens/logo.webp" alt="Logo The Legend of Dragoon">
+      <img class="imagem" src="./src/imagens/Dart-Feld-1.webp" alt="Dart Feld">
+      <img class="imagem" src="./src/imagens/Shana.webp" alt="Shana">
+      <img class="imagem" src="./src/imagens/Rose.webp" alt="Rose">
+      <img class="imagem" src="./src/imagens/Albert.webp" alt="Albert">
+      <img class="imagem" src="./src/imagens/Meru.webp" alt="Meru">
+      <img class="imagem" src="./src/imagens/Haschel.webp" alt="Haschel">
+      <img class="imagem" src="./src/imagens/Kongol.webp" alt="Kongol">
+      <img class="imagem" src="./src/imagens/Miranda.webp" alt="Miranda">
+      <img class="imagem" src="./src/imagens/Lloyd.webp" alt="Lloyd">
+      <img class="imagem" src="./src/imagens/Zieg Feld.webp" alt="Zieg Feld">
     </div>
 
     <div class="conteudo">
+      <!-- Indicador de progresso -->
+      <div class="progresso">
+        <span class="progresso-texto">1 / 11</span>
+      </div>
 
       <div class="informacoes ativa">
-        <h1></h1>
+        <div class="badge">⭐ RPG Clássico</div>
+        <h1>Bem-vindo ao Mundo de Dragoon</h1>
         <p class="descricao">
           "The Legend of Dragoon" é um RPG desenvolvido pela Japan Studio e lançado para o PlayStation em 1999. Ele é bastante querido por muitos fãs de RPGs clássicos devido à sua história envolvente, sistema de combate baseado em "Addition" e visuais impressionantes para a época.
         </p>
+        <div class="tags">
+          <span>#RPG</span>
+          <span>#PlayStation</span>
+          <span>#1999</span>
+        </div>
       </div>
 
       <div class="informacoes">
+        <div class="badge">⚔️ Protagonista</div>
         <h1>Dart Feld</h1>
         <p class="descricao">
-          Dart é o protagonista, um jovem guerreiro cuja aldeia, Neet, é destruída pelo Império de Sandora, e sua amiga de infância, Shana, é sequestrada. Ele busca vingança e justiça, descobrindo ao longo do caminho que tem uma conexão profunda com os dragõ.
+          Dart é o protagonista, um jovem guerreiro cuja aldeia, Neet, é destruída pelo Império de Sandora, e sua amiga de infância, Shana, é sequestrada. Ele busca vingança e justiça, descobrindo ao longo do caminho que tem uma conexão profunda com os dragões.
         </p>
+        <div class="tags">
+          <span>#Guerreiro</span>
+          <span>#Dragoon</span>
+          <span>#Vingança</span>
+        </div>
       </div>
 
       <div class="informacoes">
+        <div class="badge">💫 Personagem</div>
         <h1>Shana</h1>
         <p class="descricao">
           Shana é a amiga de infância de Dart e é sequestrada pelo Império de Sandora no início do jogo. Ao longo da história, revela-se que ela tem um papel crucial devido ao seu vínculo com os dragões e sua conexão com o passado de Dart.
         </p>
+        <div class="tags">
+          <span>#Amiga</span>
+          <span>#Vínculo</span>
+          <span>#Dragões</span>
+        </div>
       </div>
 
       <div class="informacoes">
+        <div class="badge">🌹 Personagem</div>
         <h1>Rose</h1>
         <p class="descricao">
           Rose é uma guerreira misteriosa com um passado trágico e uma forte conexão com os dragões. Ela se junta a Dart e seu grupo, revelando seu profundo conhecimento sobre a história dos dragões e os eventos que moldam o mundo.
         </p>
+        <div class="tags">
+          <span>#Misteriosa</span>
+          <span>#Guerreira</span>
+          <span>#Conhecimento</span>
+        </div>
       </div>
 
       <div class="informacoes">
+        <div class="badge">👑 Personagem</div>
         <h1>Albert</h1>
         <p class="descricao">
           Albert é o príncipe do reino de Basil, que se junta ao grupo de Dart após um ataque ao seu reino. Ele busca restaurar a paz em seu reino e combater as forças que ameaçam o mundo.
         </p>
+        <div class="tags">
+          <span>#Príncipe</span>
+          <span>#Reino</span>
+          <span>#Paz</span>
+        </div>
       </div>
 
       <div class="informacoes">
+        <div class="badge">⚡ Personagem</div>
         <h1>Meru</h1>
         <p class="descricao">
           Meru é uma jovem guerreira enérgica que se junta ao grupo após um ataque ao seu vilarejo. Ela busca justiça e aventura, trazendo uma energia positiva para o grupo.
         </p>
+        <div class="tags">
+          <span>#Energética</span>
+          <span>#Aventura</span>
+          <span>#Justiça</span>
+        </div>
       </div>
 
       <div class="informacoes">
+        <div class="badge">🗡️ Personagem</div>
         <h1>Haschel</h1>
         <p class="descricao">
-          Haschel é um velho guerreiro e pai de Meru. Ele busca vingança pela morte de sua esposa e se junta a Dart para alcançar seus objetivos pessoais e ajudar na luta contra as forças malignas.  
+          Haschel é um velho guerreiro e pai de Meru. Ele busca vingança pela morte de sua esposa e se junta a Dart para alcançar seus objetivos pessoais e ajudar na luta contra as forças malignas.
         </p>
+        <div class="tags">
+          <span>#Veterano</span>
+          <span>#Vingança</span>
+          <span>#Guerreiro</span>
+        </div>
       </div>
 
       <div class="informacoes">
+        <div class="badge">🛡️ Personagem</div>
         <h1>Kongol</h1>
         <p class="descricao">
           Kongol é um gigante da tribo do Povo dos Gigantes que se une ao grupo após uma série de eventos que revelam seu passado e sua conexão com o enredo principal. Ele busca resolver questões relacionadas ao seu povo e encontrar seu lugar no mundo.
         </p>
+        <div class="tags">
+          <span>#Gigante</span>
+          <span>#Tribo</span>
+          <span>#Força</span>
+        </div>
       </div>
-      
+
       <div class="informacoes">
+        <div class="badge">✨ Personagem</div>
         <h1>Miranda</h1>
         <p class="descricao">
           Miranda tem uma aparência distinta com cabelo longo e roupas elegantes. Ela é uma personagem marcante com um visual sofisticado.
         </p>
-      </div> 
+        <div class="tags">
+          <span>#Elegante</span>
+          <span>#Misteriosa</span>
+          <span>#Sofisticada</span>
+        </div>
+      </div>
 
       <div class="informacoes">
+        <div class="badge">🎭 Antagonista</div>
         <h1>Lloyd</h1>
         <p class="descricao">
           Lloyd é um dos principais vilões do jogo. É um guerreiro habilidoso que busca reunir todos os Dragoon Spirits para criar um novo mundo. Embora inicialmente pareça ser um antagonista, suas verdadeiras motivações são mais complexas.
         </p>
-      </div> 
+        <div class="tags">
+          <span>#Vilão</span>
+          <span>#Complexo</span>
+          <span>#Dragoon</span>
+        </div>
+      </div>
 
       <div class="informacoes">
+        <div class="badge">🔥 Lenda</div>
         <h1>Zieg Feld</h1>
         <p class="descricao">
-          Zieg Feld é o pai de Dart e um dos maiores heróis da Guerra dos Dragões. No entanto, Zieg foi corrompido pelo poder de Melbu Frahma e se tornou um dos principais antagonistas do jogo. Ele é um personagem trágico, cuja vida foi manipulada e destruída pelo poder do Dragão. 
+          Zieg Feld é o pai de Dart e um dos maiores heróis da Guerra dos Dragões. No entanto, Zieg foi corrompido pelo poder de Melbu Frahma e se tornou um dos principais antagonistas do jogo. Ele é um personagem trágico, cuja vida foi manipulada e destruída pelo poder do Dragão.
         </p>
+        <div class="tags">
+          <span>#Herói</span>
+          <span>#Trágico</span>
+          <span>#Corrompido</span>
+        </div>
       </div>
 
       <div class="botoes-carrossel">
-        <button class="botao selecionado"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
+        <button class="botao selecionado" data-indice="0"></button>
+        <button class="botao" data-indice="1"></button>
+        <button class="botao" data-indice="2"></button>
+        <button class="botao" data-indice="3"></button>
+        <button class="botao" data-indice="4"></button>
+        <button class="botao" data-indice="5"></button>
+        <button class="botao" data-indice="6"></button>
+        <button class="botao" data-indice="7"></button>
+        <button class="botao" data-indice="8"></button>
+        <button class="botao" data-indice="9"></button>
+        <button class="botao" data-indice="10"></button>
       </div>
-
     </div>
-
- 
   </main>
-  
-  <script src="./src/js/index.js"></script>
 
+  <script src="./src/js/index.js"></script>
 </body>
 </html>
