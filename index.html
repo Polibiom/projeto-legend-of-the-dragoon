@@ -1,204 +1,1002 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Legend of Dragoon - Enciclopédia</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Legend of Dragoon - Remake Fan Project</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700&family=Cinzel:wght@400;700;900&display=swap" rel="stylesheet">
 
-  <link rel="shortcut icon" href="./src/imagens/ric-foto-port.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./src/css/reset.css">
-  <link rel="stylesheet" href="./src/css/estilos.css">
-  <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="shortcut icon" href="./src/imagens/ric-foto-port.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responcivo.css">
 </head>
 <body>
+    <!-- Partículas de fundo -->
+    <div id="particles"></div>
 
-  <!-- Partículas de fundo -->
-  <div id="particles"></div>
+    <!-- Menu de Navegação -->
+    <nav class="menu-navegacao" id="menuNav">
+        <div class="menu-logo">
+            <span>TLoD</span>
+        </div>
+        <ul class="menu-links">
+            <li><a href="#home" class="ativo">HOME</a></li>
+            <li><a href="#story">STORY</a></li>
+            <li><a href="#heroes">HEROES</a></li>
+            <li><a href="#dragoons">DRAGOONS</a></li>
+            <li><a href="#legendary-warriors">LEGENDARY</a></li>
+            <li><a href="#bosses">BOSSES</a></li>
+            <li><a href="#locations">LOCATIONS</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#about">ABOUT</a></li>
+        </ul>
+        <div class="menu-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
 
-  <main>
-    <div class="carrossel">
-      <img class="imagem ativa" src="./src/imagens/logo.webp" alt="Logo The Legend of Dragoon">
-      <img class="imagem" src="./src/imagens/Dart-Feld-1.webp" alt="Dart Feld">
-      <img class="imagem" src="./src/imagens/Shana.webp" alt="Shana">
-      <img class="imagem" src="./src/imagens/Rose.webp" alt="Rose">
-      <img class="imagem" src="./src/imagens/Albert.webp" alt="Albert">
-      <img class="imagem" src="./src/imagens/Meru.webp" alt="Meru">
-      <img class="imagem" src="./src/imagens/Haschel.webp" alt="Haschel">
-      <img class="imagem" src="./src/imagens/Kongol.webp" alt="Kongol">
-      <img class="imagem" src="./src/imagens/Miranda.webp" alt="Miranda">
-      <img class="imagem" src="./src/imagens/Lloyd.webp" alt="Lloyd">
-      <img class="imagem" src="./src/imagens/Zieg Feld.webp" alt="Zieg Feld">
+    <!-- ===== HOME SECTION ===== -->
+    <section id="home" class="section-home">
+        <div class="hero-container">
+            <div class="carrossel-hero">
+                <img class="hero-bg ativo" src="./src/imagens/logo.webp" alt="The Legend of Dragoon">
+                <img class="hero-bg" src="./src/imagens/heroes/Dart-Feld-1.webp" alt="Dart Feld">
+                <img class="hero-bg" src="./src/imagens/heroes/Shana.webp" alt="Shana">
+                <img class="hero-bg" src="./src/imagens/heroes/Rose.webp" alt="Rose">
+                <img class="hero-bg" src="./src/imagens/heroes/Albert.webp" alt="Albert">
+                <img class="hero-bg" src="./src/imagens/heroes/Meru.webp" alt="Meru">
+                <img class="hero-bg" src="./src/imagens/guerreiros-lendarios/zieg-feld.webp" alt="Zieg Feld">
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-badge">✦ FAN REMAKE PROJECT</div>
+                <h1 class="hero-title">
+                    <span class="gold">THE LEGEND</span><br>
+                    <span class="white">OF DRAGOON</span>
+                </h1>
+                <p class="hero-subtitle">Uma jornada épica de dragões, guerreiros e destino</p>
+                <a href="#heroes" class="hero-btn">
+                    <span>EXPLORE O MUNDO</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <div class="hero-scroll-indicator">
+                    <!--<span>SCROLL</span>-->
+                    <div class="scroll-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STORY SECTION ===== -->
+    <section id="story" class="section-story">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2>STORY</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="story-content">
+                <div class="story-text">
+                    <p>"The Legend of Dragoon" é um RPG desenvolvido pela Japan Studio e lançado para o PlayStation em 1999.</p>
+                    <p>A história segue Dart Feld, um jovem guerreiro cuja aldeia, Neet, é destruída pelo Império de Sandora. Ao longo de sua jornada, ele descobre uma conexão profunda com os dragões e o destino do mundo.</p>
+                    <p>Com um sistema de combate inovador baseado em "Additions" e uma narrativa emocionante, o jogo se tornou um clássico cult amado por fãs de RPGs até hoje.</p>
+                    <div class="story-stats">
+                        <div class="stat">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Discos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">60+</span>
+                            <span class="stat-label">Horas de Jogo</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">11</span>
+                            <span class="stat-label">Personagens</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-image">
+                    <img src="./src/imagens/logo.webp" alt="The Legend of Dragoon">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== HEROES SECTION ===== -->
+    <section id="heroes" class="section-heroes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2>Protagonistas (Heroes)</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="heroes-grid">
+                <!-- Dart -->
+                <div class="hero-card" data-character="dart">
+                    <div class="hero-card-image">
+                        <img src="./src/imagens/heroes/Dart-Feld-1.webp" alt="Dart Feld">
+                        <div class="hero-card-overlay">
+                            <h3>Dart Feld</h3>
+                            <p>O protagonista em busca de vingança e justiça</p>
+                            <button class="view-btn">View Character</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shana -->
+                <div class="hero-card" data-character="shana">
+                    <div class="hero-card-image">
+                        <img src="./src/imagens/heroes/Shana.webp" alt="Shana">
+                        <div class="hero-card-overlay">
+                            <h3>Shana</h3>
+                            <p>Amiga de infância com vínculo com os dragões</p>
+                            <button class="view-btn">View Character</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rose -->
+                <div class="hero-card" data-character="rose">
+                    <div class="hero-card-image">
+                        <img src="./src/imagens/heroes/Rose.webp" alt="Rose">
+                        <div class="hero-card-overlay">
+                            <h3>Rose</h3>
+                            <p>Guerreira misteriosa com conhecimento ancestral</p>
+                            <button class="view-btn">View Character</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lavitz -->
+                <div class="hero-card" data-character="lavitz">
+                    <div class="hero-card-image">
+                        <img src="./src/imagens/heroes/Lavitz.webp" alt="Lavitz Slambert">
+                        <div class="hero-card-overlay">
+                            <h3>Lavitz Slambert</h3>
+                            <p>Cavaleiro real de Basil e leal amigo de Dart</p>
+                            <button class="view-btn">View Character</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Albert -->
+                <div class="hero-card" data-character="albert">
+                    <div class="hero-card-image">
+                        <img src="./src/imagens/heroes/Albert.webp" alt="Albert">
+                        <div class="hero-card-overlay">
+                            <h3>Albert</h3>
+                            <p>Príncipe de Basil em busca de paz</p>
+                            <button class="view-btn">View Character</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Haschel -->
+                <div class="hero-card" data-character="haschel">
+                    <div class="hero-card-image">
+                        <img src="./src/imagens/heroes/Haschel.webp" alt="Haschel">
+                        <div class="hero-card-overlay">
+                            <h3>Haschel</h3>
+                            <p>Veterano guerreiro em busca de vingança</p>
+                            <button class="view-btn">View Character</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Meru -->
+                <div class="hero-card" data-character="meru">
+                    <div class="hero-card-image">
+                        <img src="./src/imagens/heroes/Meru.webp" alt="Meru">
+                        <div class="hero-card-overlay">
+                            <h3>Meru</h3>
+                            <p>Jovem guerreira cheia de energia</p>
+                            <button class="view-btn">View Character</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kongol -->
+                <div class="hero-card" data-character="kongol">
+                    <div class="hero-card-image">
+                        <img src="./src/imagens/heroes/Kongol.webp" alt="Kongol">
+                        <div class="hero-card-overlay">
+                            <h3>Kongol</h3>
+                            <p>Gigante da tribo dos Gigantes</p>
+                            <button class="view-btn">View Character</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Miranda -->
+                <div class="hero-card" data-character="miranda">
+                    <div class="hero-card-image">
+                        <img src="./src/imagens/heroes/Miranda.webp" alt="Miranda">
+                        <div class="hero-card-overlay">
+                            <h3>Miranda</h3>
+                            <p>Personagem marcante e sofisticada</p>
+                            <button class="view-btn">View Character</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== HEROES MODAL ===== -->
+<div class="hero-modal" id="heroModal">
+    <div class="hero-modal-content">
+        <button class="hero-modal-close" id="heroModalClose">✕</button>
+        <div class="hero-modal-image">
+            <img src="" alt="Personagem" id="heroModalImg">
+        </div>
+        <div class="hero-modal-info">
+            <h3 id="heroModalTitle">Dart Feld</h3>
+            <span class="hero-modal-type" id="heroModalType">Protagonista</span>
+            <p id="heroModalDesc">O protagonista em busca de vingança e justiça</p>
+            <div class="hero-modal-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-label">Idade</span>
+                    <span class="hero-stat-value" id="heroModalAge">23</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-label">Dragoon</span>
+                    <span class="hero-stat-value" id="heroModalDragoon">Red-Eyed Dragon</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-label">Arma</span>
+                    <span class="hero-stat-value" id="heroModalWeapon">Espada</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-label">Origem</span>
+                    <span class="hero-stat-value" id="heroModalOrigin">Neet</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- ===== DRAGOONS SECTION ===== -->
+    <section id="dragoons" class="section-dragoons">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2>DRAGOON SPIRITS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="dragoons-grid">
+                <!-- Red-Eyed Dragon -->
+                <div class="dragoon-card" data-dragon="red-eyed">
+                    <div class="dragoon-thumb">
+                        <img src="./src/imagens/dragoes/red-eyed-dragon.webp" alt="Red-Eyed Dragon">
+                        <div class="dragoon-thumb-overlay">
+                            <span>👁️</span>
+                        </div>
+                    </div>
+                    <div class="dragoon-info">
+                        <h3>Red-Eyed Dragon</h3>
+                        <p>O espírito do dragão de olhos vermelhos, ligado a Dart</p>
+                    </div>
+                    <button class="dragoon-expand-btn">🔍 Expandir</button>
+                </div>
+
+                <!-- White-Silver Dragon -->
+                <div class="dragoon-card" data-dragon="white-silver">
+                    <div class="dragoon-thumb">
+                        <img src="./src/imagens/dragoes/white-silver-dragon.webp" alt="White-Silver Dragon">
+                        <div class="dragoon-thumb-overlay">
+                            <span>🤍</span>
+                        </div>
+                    </div>
+                    <div class="dragoon-info">
+                        <h3>White-Silver Dragon</h3>
+                        <p>O dragão prateado, ligado a Shana</p>
+                    </div>
+                    <button class="dragoon-expand-btn">🔍 Expandir</button>
+                </div>
+
+                <!-- Dark Dragon -->
+                <div class="dragoon-card" data-dragon="dark">
+                    <div class="dragoon-thumb">
+                        <img src="./src/imagens/dragoes/dark-dragon.webp" alt="Dark Dragon">
+                        <div class="dragoon-thumb-overlay">
+                            <span>🖤</span>
+                        </div>
+                    </div>
+                    <div class="dragoon-info">
+                        <h3>Dark Dragon</h3>
+                        <p>O dragão das trevas, ligado a Rose</p>
+                    </div>
+                    <button class="dragoon-expand-btn">🔍 Expandir</button>
+                </div>
+
+                <!-- Jade Dragon -->
+                <div class="dragoon-card" data-dragon="jade">
+                    <div class="dragoon-thumb">
+                        <img src="./src/imagens/dragoes/jade-dragon.webp" alt="Jade Dragon">
+                        <div class="dragoon-thumb-overlay">
+                            <span>💚</span>
+                        </div>
+                    </div>
+                    <div class="dragoon-info">
+                        <h3>Jade Dragon</h3>
+                        <p>O dragão de jade, ligado a Albert</p>
+                    </div>
+                    <button class="dragoon-expand-btn">🔍 Expandir</button>
+                </div>
+
+                <!-- Violet Dragon -->
+                <div class="dragoon-card" data-dragon="violet">
+                    <div class="dragoon-thumb">
+                        <img src="./src/imagens/dragoes/violet-dragon.webp" alt="Violet Dragon">
+                        <div class="dragoon-thumb-overlay">
+                            <span>💜</span>
+                        </div>
+                    </div>
+                    <div class="dragoon-info">
+                        <h3>Violet Dragon</h3>
+                        <p>O dragão violeta, ligado a Haschel</p>
+                    </div>
+                    <button class="dragoon-expand-btn">🔍 Expandir</button>
+                </div>
+
+                <!-- Blue Sea Dragon -->
+                <div class="dragoon-card" data-dragon="blue-sea">
+                    <div class="dragoon-thumb">
+                        <img src="./src/imagens/dragoes/blue-sea-dragon.webp" alt="Blue Sea Dragon">
+                        <div class="dragoon-thumb-overlay">
+                            <span>💙</span>
+                        </div>
+                    </div>
+                    <div class="dragoon-info">
+                        <h3>Blue Sea Dragon</h3>
+                        <p>O dragão do mar azul, ligado a Meru</p>
+                    </div>
+                    <button class="dragoon-expand-btn">🔍 Expandir</button>
+                </div>
+
+                <!-- Golden Dragon -->
+                <div class="dragoon-card" data-dragon="golden">
+                    <div class="dragoon-thumb">
+                        <img src="./src/imagens/dragoes/golden-dragon.webp" alt="Golden Dragon">
+                        <div class="dragoon-thumb-overlay">
+                            <span>💛</span>
+                        </div>
+                    </div>
+                    <div class="dragoon-info">
+                        <h3>Golden Dragon</h3>
+                        <p>O dragão dourado, ligado a Kongol</p>
+                    </div>
+                    <button class="dragoon-expand-btn">🔍 Expandir</button>
+                </div>
+
+                <!-- Divine Dragon -->
+                <div class="dragoon-card" data-dragon="divine">
+                    <div class="dragoon-thumb">
+                        <img src="./src/imagens/dragoes/divine-dragon.webp" alt="Divine Dragon">
+                        <div class="dragoon-thumb-overlay">
+                            <span>✨</span>
+                        </div>
+                    </div>
+                    <div class="dragoon-info">
+                        <h3>Divine Dragon</h3>
+                        <p>O dragão divino, o mais poderoso de todos</p>
+                    </div>
+                    <button class="dragoon-expand-btn">🔍 Expandir</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DRAGOON MODAL ===== -->
+    <div class="dragoon-modal" id="dragoonModal">
+        <div class="dragoon-modal-content">
+            <button class="dragoon-modal-close" id="dragoonModalClose">✕</button>
+            <div class="dragoon-modal-image">
+                <img src="" alt="Dragoon Spirit" id="dragoonModalImg">
+            </div>
+            <div class="dragoon-modal-info">
+                <h3 id="dragoonModalTitle">Red-Eyed Dragon</h3>
+                <p id="dragoonModalDesc">O espírito do dragão de olhos vermelhos, ligado a Dart</p>
+            </div>
+        </div>
     </div>
 
-    <div class="conteudo">
-      <!-- Indicador de progresso -->
-      <div class="progresso">
-        <span class="progresso-texto">1 / 11</span>
-      </div>
+    <!-- ===== GUERREIROS LENDÁRIOS SECTION ===== -->
+    <section id="legendary-warriors" class="section-legendary-warriors">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2>GUERREIROS LENDÁRIOS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="legendary-warriors-grid">
+                <!-- Zieg Feld -->
+                <div class="legendary-warrior-card" data-warrior="zieg">
+                    <div class="warrior-thumb">
+                        <img src="./src/imagens/guerreiros-lendarios/zieg-feld.webp" alt="Zieg Feld">
+                        <div class="warrior-thumb-overlay">
+                            <span>🔥</span>
+                        </div>
+                    </div>
+                    <div class="warrior-info">
+                        <h3>Zieg Feld</h3>
+                        <span class="warrior-type">Herói da Guerra dos Dragões</span>
+                    </div>
+                    <button class="warrior-expand-btn">🔍 Detalhes</button>
+                </div>
 
-      <div class="informacoes ativa">
-        <div class="badge">⭐ RPG Clássico</div>
-        <h1>Bem-vindo ao Mundo de Dragoon</h1>
-        <p class="descricao">
-          "The Legend of Dragoon" é um RPG desenvolvido pela Japan Studio e lançado para o PlayStation em 1999. Ele é bastante querido por muitos fãs de RPGs clássicos devido à sua história envolvente, sistema de combate baseado em "Addition" e visuais impressionantes para a época.
-        </p>
-        <div class="tags">
-          <span>#RPG</span>
-          <span>#PlayStation</span>
-          <span>#1999</span>
+                <!-- Lloyd -->
+                <div class="legendary-warrior-card" data-warrior="lloyd">
+                    <div class="warrior-thumb">
+                        <img src="./src/imagens/guerreiros-lendarios/lloyd.webp" alt="Lloyd">
+                        <div class="warrior-thumb-overlay">
+                            <span>🎭</span>
+                        </div>
+                    </div>
+                    <div class="warrior-info">
+                        <h3>Lloyd</h3>
+                        <span class="warrior-type">Guerreiro Enigmático</span>
+                    </div>
+                    <button class="warrior-expand-btn">🔍 Detalhes</button>
+                </div>
+
+                <!-- Greham -->
+                <div class="legendary-warrior-card" data-warrior="greham">
+                    <div class="warrior-thumb">
+                        <img src="./src/imagens/guerreiros-lendarios/greham.webp" alt="Greham">
+                        <div class="warrior-thumb-overlay">
+                            <span>⚔️</span>
+                        </div>
+                    </div>
+                    <div class="warrior-info">
+                        <h3>Greham</h3>
+                        <span class="warrior-type">Guerreiro Lendário</span>
+                    </div>
+                    <button class="warrior-expand-btn">🔍 Detalhes</button>
+                </div>
+
+                <!-- Doel -->
+                <div class="legendary-warrior-card" data-warrior="doel">
+                    <div class="warrior-thumb">
+                        <img src="./src/imagens/guerreiros-lendarios/doel.webp" alt="Doel">
+                        <div class="warrior-thumb-overlay">
+                            <span>👑</span>
+                        </div>
+                    </div>
+                    <div class="warrior-info">
+                        <h3>Doel</h3>
+                        <span class="warrior-type">Imperador de Sandora</span>
+                    </div>
+                    <button class="warrior-expand-btn">🔍 Detalhes</button>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
 
-      <div class="informacoes">
-        <div class="badge">⚔️ Protagonista</div>
-        <h1>Dart Feld</h1>
-        <p class="descricao">
-          Dart é o protagonista, um jovem guerreiro cuja aldeia, Neet, é destruída pelo Império de Sandora, e sua amiga de infância, Shana, é sequestrada. Ele busca vingança e justiça, descobrindo ao longo do caminho que tem uma conexão profunda com os dragões.
-        </p>
-        <div class="tags">
-          <span>#Guerreiro</span>
-          <span>#Dragoon</span>
-          <span>#Vingança</span>
+    <!-- ===== WARRIOR MODAL ===== -->
+    <div class="warrior-modal" id="warriorModal">
+        <div class="warrior-modal-content">
+            <button class="warrior-modal-close" id="warriorModalClose">✕</button>
+            <div class="warrior-modal-image">
+                <img src="" alt="Guerreiro Lendário" id="warriorModalImg">
+            </div>
+            <div class="warrior-modal-info">
+                <h3 id="warriorModalTitle">Zieg Feld</h3>
+                <span class="warrior-modal-type" id="warriorModalType">Herói da Guerra dos Dragões</span>
+                <p id="warriorModalDesc">Herói lendário da Guerra dos Dragões e pai de Dart. Zieg foi um dos maiores guerreiros que já existiu, mas foi corrompido pelo poder de Melbu Frahma.</p>
+                <div class="warrior-modal-stats">
+                    <div class="warrior-stat">
+                        <span class="warrior-stat-label">Título</span>
+                        <span class="warrior-stat-value" id="warriorModalTitle2">O Herói Caído</span>
+                    </div>
+                    <div class="warrior-stat">
+                        <span class="warrior-stat-label">Dragoon</span>
+                        <span class="warrior-stat-value" id="warriorModalDragoon">Red-Eyed Dragon</span>
+                    </div>
+                    <div class="warrior-stat">
+                        <span class="warrior-stat-label">Afiliação</span>
+                        <span class="warrior-stat-value" id="warriorModalAffiliation">Neet</span>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="informacoes">
-        <div class="badge">💫 Personagem</div>
-        <h1>Shana</h1>
-        <p class="descricao">
-          Shana é a amiga de infância de Dart e é sequestrada pelo Império de Sandora no início do jogo. Ao longo da história, revela-se que ela tem um papel crucial devido ao seu vínculo com os dragões e sua conexão com o passado de Dart.
-        </p>
-        <div class="tags">
-          <span>#Amiga</span>
-          <span>#Vínculo</span>
-          <span>#Dragões</span>
-        </div>
-      </div>
-
-      <div class="informacoes">
-        <div class="badge">🌹 Personagem</div>
-        <h1>Rose</h1>
-        <p class="descricao">
-          Rose é uma guerreira misteriosa com um passado trágico e uma forte conexão com os dragões. Ela se junta a Dart e seu grupo, revelando seu profundo conhecimento sobre a história dos dragões e os eventos que moldam o mundo.
-        </p>
-        <div class="tags">
-          <span>#Misteriosa</span>
-          <span>#Guerreira</span>
-          <span>#Conhecimento</span>
-        </div>
-      </div>
-
-      <div class="informacoes">
-        <div class="badge">👑 Personagem</div>
-        <h1>Albert</h1>
-        <p class="descricao">
-          Albert é o príncipe do reino de Basil, que se junta ao grupo de Dart após um ataque ao seu reino. Ele busca restaurar a paz em seu reino e combater as forças que ameaçam o mundo.
-        </p>
-        <div class="tags">
-          <span>#Príncipe</span>
-          <span>#Reino</span>
-          <span>#Paz</span>
-        </div>
-      </div>
-
-      <div class="informacoes">
-        <div class="badge">⚡ Personagem</div>
-        <h1>Meru</h1>
-        <p class="descricao">
-          Meru é uma jovem guerreira enérgica que se junta ao grupo após um ataque ao seu vilarejo. Ela busca justiça e aventura, trazendo uma energia positiva para o grupo.
-        </p>
-        <div class="tags">
-          <span>#Energética</span>
-          <span>#Aventura</span>
-          <span>#Justiça</span>
-        </div>
-      </div>
-
-      <div class="informacoes">
-        <div class="badge">🗡️ Personagem</div>
-        <h1>Haschel</h1>
-        <p class="descricao">
-          Haschel é um velho guerreiro e pai de Meru. Ele busca vingança pela morte de sua esposa e se junta a Dart para alcançar seus objetivos pessoais e ajudar na luta contra as forças malignas.
-        </p>
-        <div class="tags">
-          <span>#Veterano</span>
-          <span>#Vingança</span>
-          <span>#Guerreiro</span>
-        </div>
-      </div>
-
-      <div class="informacoes">
-        <div class="badge">🛡️ Personagem</div>
-        <h1>Kongol</h1>
-        <p class="descricao">
-          Kongol é um gigante da tribo do Povo dos Gigantes que se une ao grupo após uma série de eventos que revelam seu passado e sua conexão com o enredo principal. Ele busca resolver questões relacionadas ao seu povo e encontrar seu lugar no mundo.
-        </p>
-        <div class="tags">
-          <span>#Gigante</span>
-          <span>#Tribo</span>
-          <span>#Força</span>
-        </div>
-      </div>
-
-      <div class="informacoes">
-        <div class="badge">✨ Personagem</div>
-        <h1>Miranda</h1>
-        <p class="descricao">
-          Miranda tem uma aparência distinta com cabelo longo e roupas elegantes. Ela é uma personagem marcante com um visual sofisticado.
-        </p>
-        <div class="tags">
-          <span>#Elegante</span>
-          <span>#Misteriosa</span>
-          <span>#Sofisticada</span>
-        </div>
-      </div>
-
-      <div class="informacoes">
-        <div class="badge">🎭 Antagonista</div>
-        <h1>Lloyd</h1>
-        <p class="descricao">
-          Lloyd é um dos principais vilões do jogo. É um guerreiro habilidoso que busca reunir todos os Dragoon Spirits para criar um novo mundo. Embora inicialmente pareça ser um antagonista, suas verdadeiras motivações são mais complexas.
-        </p>
-        <div class="tags">
-          <span>#Vilão</span>
-          <span>#Complexo</span>
-          <span>#Dragoon</span>
-        </div>
-      </div>
-
-      <div class="informacoes">
-        <div class="badge">🔥 Lenda</div>
-        <h1>Zieg Feld</h1>
-        <p class="descricao">
-          Zieg Feld é o pai de Dart e um dos maiores heróis da Guerra dos Dragões. No entanto, Zieg foi corrompido pelo poder de Melbu Frahma e se tornou um dos principais antagonistas do jogo. Ele é um personagem trágico, cuja vida foi manipulada e destruída pelo poder do Dragão.
-        </p>
-        <div class="tags">
-          <span>#Herói</span>
-          <span>#Trágico</span>
-          <span>#Corrompido</span>
-        </div>
-      </div>
-
-      <div class="botoes-carrossel">
-        <button class="botao selecionado" data-indice="0"></button>
-        <button class="botao" data-indice="1"></button>
-        <button class="botao" data-indice="2"></button>
-        <button class="botao" data-indice="3"></button>
-        <button class="botao" data-indice="4"></button>
-        <button class="botao" data-indice="5"></button>
-        <button class="botao" data-indice="6"></button>
-        <button class="botao" data-indice="7"></button>
-        <button class="botao" data-indice="8"></button>
-        <button class="botao" data-indice="9"></button>
-        <button class="botao" data-indice="10"></button>
-      </div>
     </div>
-  </main>
 
-  <script src="./src/js/index.js"></script>
+    <!-- ===== ANTAGONISTAS PRINCIPAIS SECTION ===== -->
+    <section id="antagonists" class="section-antagonists">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2>ANTAGONISTAS PRINCIPAIS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="antagonists-grid">
+                <!-- Melbu Frahma -->
+                <div class="antagonist-card" data-antagonist="melbu-frahma">
+                    <div class="antagonist-thumb">
+                        <img src="./src/imagens/antagonistas/melbu-frahma-antagonist.webp" alt="Melbu Frahma">
+                        <div class="antagonist-thumb-overlay">
+                            <span>🌑</span>
+                        </div>
+                    </div>
+                    <div class="antagonist-info">
+                        <h3>Melbu Frahma</h3>
+                        <span class="antagonist-type">Vilão Final</span>
+                    </div>
+                    <button class="antagonist-expand-btn">🔍 Detalhes</button>
+                </div>
+
+                <!-- Emperor Diaz -->
+                <div class="antagonist-card" data-antagonist="emperor-diaz">
+                    <div class="antagonist-thumb">
+                        <img src="./src/imagens/antagonistas/emperor-diaz.webp" alt="Emperor Diaz">
+                        <div class="antagonist-thumb-overlay">
+                            <span>👑</span>
+                        </div>
+                    </div>
+                    <div class="antagonist-info">
+                        <h3>Emperor Diaz</h3>
+                        <span class="antagonist-type">Imperador</span>
+                    </div>
+                    <button class="antagonist-expand-btn">🔍 Detalhes</button>
+                </div>
+
+                <!-- Lenus -->
+                <div class="antagonist-card" data-antagonist="lenus">
+                    <div class="antagonist-thumb">
+                        <img src="./src/imagens/antagonistas/lenus.webp" alt="Lenus">
+                        <div class="antagonist-thumb-overlay">
+                            <span>🌀</span>
+                        </div>
+                    </div>
+                    <div class="antagonist-info">
+                        <h3>Lenus</h3>
+                        <span class="antagonist-type">Guerreira Misteriosa</span>
+                    </div>
+                    <button class="antagonist-expand-btn">🔍 Detalhes</button>
+                </div>
+
+                <!-- Fruegel -->
+                <div class="antagonist-card" data-antagonist="fruegel">
+                    <div class="antagonist-thumb">
+                        <img src="./src/imagens/antagonistas/fruegel.webp" alt="Fruegel">
+                        <div class="antagonist-thumb-overlay">
+                            <span>⚔️</span>
+                        </div>
+                    </div>
+                    <div class="antagonist-info">
+                        <h3>Fruegel</h3>
+                        <span class="antagonist-type">General de Sandora</span>
+                    </div>
+                    <button class="antagonist-expand-btn">🔍 Detalhes</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ANTAGONIST MODAL ===== -->
+    <div class="antagonist-modal" id="antagonistModal">
+        <div class="antagonist-modal-content">
+            <button class="antagonist-modal-close" id="antagonistModalClose">✕</button>
+            <div class="antagonist-modal-image">
+                <img src="" alt="Antagonista" id="antagonistModalImg">
+            </div>
+            <div class="antagonist-modal-info">
+                <h3 id="antagonistModalTitle">Melbu Frahma</h3>
+                <span class="antagonist-modal-type" id="antagonistModalType">Vilão Final</span>
+                <p id="antagonistModalDesc">O arquiteto da destruição. Melbu Frahma é o vilão final, cujo poder ameaça consumir todo o mundo.</p>
+                <div class="antagonist-modal-stats">
+                    <div class="antagonist-stat">
+                        <span class="antagonist-stat-label">Título</span>
+                        <span class="antagonist-stat-value" id="antagonistModalTitle2">O Arquitet da Destruição</span>
+                    </div>
+                    <div class="antagonist-stat">
+                        <span class="antagonist-stat-label">Afiliação</span>
+                        <span class="antagonist-stat-value" id="antagonistModalAffiliation">Império de Sandora</span>
+                    </div>
+                    <div class="antagonist-stat">
+                        <span class="antagonist-stat-label">Dragoon</span>
+                        <span class="antagonist-stat-value" id="antagonistModalDragoon">Divine Dragon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== BOSSES SECTION ===== -->
+    <section id="bosses" class="section-bosses">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2>BOSSES</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <!-- MAIN BOSSES -->
+            <div class="bosses-category">
+                <h3 class="category-title">⚔ MAIN BOSSES</h3>
+                <div class="bosses-grid">
+                    <div class="boss-card" data-boss="feyrbrand">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes/feyrbrand.webp" alt="Feyrbrand">
+                            <div class="boss-thumb-overlay">
+                                <span>🐉</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Feyrbrand</h3>
+                            <span class="boss-type">Dragão</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+
+                    <div class="boss-card" data-boss="urobolus">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes/urobolus.webp" alt="Urobolus">
+                            <div class="boss-thumb-overlay">
+                                <span>🌀</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Urobolus</h3>
+                            <span class="boss-type">Serpente</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+
+                    <div class="boss-card" data-boss="polter-armor">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes/polter-armor.webp" alt="Polter Armor">
+                            <div class="boss-thumb-overlay">
+                                <span>🛡️</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Polter Armor</h3>
+                            <span class="boss-type">Armadura Amaldiçoada</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+
+                    <div class="boss-card" data-boss="drake">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes/drake.webp" alt="Drake">
+                            <div class="boss-thumb-overlay">
+                                <span>⚔️</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Drake</h3>
+                            <span class="boss-type">Guerreiro</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+
+                    <div class="boss-card" data-boss="mappi">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes/mappi.webp" alt="Mappi">
+                            <div class="boss-thumb-overlay">
+                                <span>🗡️</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Mappi</h3>
+                            <span class="boss-type">Mercenário</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+
+                    <div class="boss-card" data-boss="ghost-commander">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes/ghost-commander.webp" alt="Ghost Commander">
+                            <div class="boss-thumb-overlay">
+                                <span>👻</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Ghost Commander</h3>
+                            <span class="boss-type">Espectro</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+
+                    <div class="boss-card" data-boss="kongol-boss">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes/kongol-boss.webp" alt="Kongol">
+                            <div class="boss-thumb-overlay">
+                                <span>👊</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Kongol</h3>
+                            <span class="boss-type">Gigante</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+
+                    <div class="boss-card" data-boss="virage">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes/virage.webp" alt="Virage">
+                            <div class="boss-thumb-overlay">
+                                <span>💀</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Virage</h3>
+                            <span class="boss-type">Criatura Antiga</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+
+                    <div class="boss-card" data-boss="grand-jewel">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes/grand-jewel.webp" alt="Grand Jewel">
+                            <div class="boss-thumb-overlay">
+                                <span>💎</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Grand Jewel</h3>
+                            <span class="boss-type">Jóia Mística</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LEGENDARY BOSSES -->
+            <div class="bosses-category">
+                <div class="section-header">
+                <span class="section-number">06</span>
+                <h2>👑 LEGENDARY BOSSES</h2>
+                <div class="section-line"></div>
+            </div>
+            <h3 class="category-title">⚔ LEGENDARY BOSSES</h3>
+                <div class="bosses-grid legendary">
+                    <div class="boss-card legendary-card" data-boss="faust">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes-lendarios/faust.webp" alt="Faust">
+                            <div class="boss-thumb-overlay">
+                                <span>👑</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Faust</h3>
+                            <span class="boss-type">Lenda Viva</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+
+                    <div class="boss-card legendary-card" data-boss="divine-dragon-boss">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes-lendarios/divine-dragon-boss.webp" alt="Divine Dragon">
+                            <div class="boss-thumb-overlay">
+                                <span>✨</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Divine Dragon</h3>
+                            <span class="boss-type">Dragão Divino</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+
+                    <div class="boss-card legendary-card" data-boss="melbu-frahma">
+                        <div class="boss-thumb">
+                            <img src="./src/imagens/chefes-lendarios/melbu-frahma.webp" alt="Melbu Frahma">
+                            <div class="boss-thumb-overlay">
+                                <span>🌑</span>
+                            </div>
+                        </div>
+                        <div class="boss-info">
+                            <h3>Melbu Frahma (Final Form)</h3>
+                            <span class="boss-type">Vilão Final</span>
+                        </div>
+                        <button class="boss-expand-btn">🔍 Detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BOSS MODAL ===== -->
+    <div class="boss-modal" id="bossModal">
+        <div class="boss-modal-content">
+            <button class="boss-modal-close" id="bossModalClose">✕</button>
+            <div class="boss-modal-image">
+                <img src="" alt="Boss" id="bossModalImg">
+            </div>
+            <div class="boss-modal-info">
+                <h3 id="bossModalTitle">Feyrbrand</h3>
+                <span class="boss-modal-type" id="bossModalType">Dragão</span>
+                <p id="bossModalDesc">Um dos primeiros desafios enfrentados por Dart e seus aliados. Feyrbrand é um dragão imponente que guarda segredos antigos.</p>
+                <div class="boss-modal-stats">
+                    <div class="boss-stat">
+                        <span class="boss-stat-label">HP</span>
+                        <span class="boss-stat-value" id="bossModalHp">???</span>
+                    </div>
+                    <div class="boss-stat">
+                        <span class="boss-stat-label">Local</span>
+                        <span class="boss-stat-value" id="bossModalLocation">???</span>
+                    </div>
+                    <div class="boss-stat">
+                        <span class="boss-stat-label">Fraqueza</span>
+                        <span class="boss-stat-value" id="bossModalWeakness">???</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== LOCATIONS SECTION ===== -->
+    <section id="locations" class="section-locations">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">07</span>
+                <h2>LOCATIONS</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <h3>Basil</h3>
+                    <p>Reino governado por Albert</p>
+                    <a href="https://www.deviantart.com/vgcartography/art/Legend-of-Dragoon-World-Map-of-Endiness-1325685790" target="_blank" class="location-link">🗺️ Ver no Mapa</a>
+                </div>
+                <div class="location-card">
+                    <h3>Seles</h3>
+                    <p>Cidade natal de Shana</p>
+                </div>
+                <div class="location-card">
+                    <h3>Hoax</h3>
+                    <p>Vila estratégica</p>
+                </div>
+                <div class="location-card">
+                    <h3>Hellena</h3>
+                    <p>Prisão do Império</p>
+                </div>
+                <div class="location-card">
+                    <h3>Kazas</h3>
+                    <p>Capital do Império</p>
+                </div>
+                <div class="location-card">
+                    <h3>Lohan</h3>
+                    <p>Cidade comercial</p>
+                </div>
+                <div class="location-card">
+                    <h3>Donau</h3>
+                    <p>Vila pacífica</p>
+                </div>
+                <div class="location-card">
+                    <h3>Deningrad</h3>
+                    <p>Fortaleza do norte</p>
+                </div>
+                <div class="location-card">
+                    <h3>Mayfil</h3>
+                    <p>Reino dos mortos</p>
+                </div>
+                <div class="location-card">
+                    <h3>Kadessa</h3>
+                    <p>Cidade antiga</p>
+                </div>
+                <div class="location-card">
+                    <h3>Moon That Never Sets</h3>
+                    <p>Lua eterna</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GALLERY SECTION ===== -->
+    <section id="gallery" class="section-gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">08</span>
+                <h2>GALLERY</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="./src/imagens/heroes/Dart-Feld-1.webp" alt="Characters">
+                    <div class="gallery-overlay">
+                        <span>Characters</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./src/imagens/logo.webp" alt="Dragoon Spirits">
+                    <div class="gallery-overlay">
+                        <span>Dragoon Spirits</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./src/imagens/antagonistas/emperor-diaz.webp" alt="Bosses">
+                    <div class="gallery-overlay">
+                        <span>Bosses</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./src/imagens/galeria/esperitos-ps1.png" alt="Concept Arts">
+                    <div class="gallery-overlay">
+                        <span>Concept Arts</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./src/imagens/galeria/capa-ps1.jfif" alt="Wallpapers">
+                    <div class="gallery-overlay">
+                        <span>Wallpapers</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./src/imagens/galeria/todos-ps1.png" alt="Screenshots">
+                    <div class="gallery-overlay">
+                        <span>Screenshots</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="section-about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">09</span>
+                <h2>ABOUT</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>THE LEGEND OF DRAGOON</h3>
+                    <p>Este é um projeto de fã dedicado a um dos maiores clássicos do PlayStation.</p>
+                    <p>O objetivo é preservar e celebrar a memória deste RPG incrível que marcou a infância de muitos jogadores.</p>
+                    <div class="about-credits">
+                        <p><strong>Created by</strong></p>
+                        <h4>Richard Marques</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/Marques-Richard" class="social-link">GitHub</a>
+                            <a href="https://www.linkedin.com/in/richard-marques-80b2931b4/" class="social-link">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./src/imagens/original.webp" alt="The Legend of Dragoon">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>TLoD</span>
+                    <p>THE LEGEND OF DRAGOON</p>
+                </div>
+                <div class="footer-credits">
+                    <p>Created by</p>
+                    <h4>Richard Marques</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com/Marques-Richard">GitHub</a>
+                        <a href="https://www.linkedin.com/in/richard-marques-80b2931b4/">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="footer-copy">
+                    <p>© Fan Project - 2026</p>
+                    <p>All rights reserved to Sony Computer Entertainment</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
